@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Food Ingredient Analyzer</title>
+
+  <link rel="stylesheet" href="colour.css">
+
+</head>
+
+<body>
+
+  <!-- Top bar -->
+  <div id="topBar">
+    <h2>Ingredient Analyzer</h2>
+    <button id="historyToggle">🔍</button>
+  </div>
+
+  <!-- History Sidebar -->
+  <div id="historySidebar">
+    <div id="historyHeader">
+      <h3>History</h3>
+      <button id="closeHistory">✖</button>
+    </div>
+
+    <div id="historyList"></div>
+    <button id="clearHistoryBtn">Clear history</button>
+
+  </div>
+
+
+
+
+  <input type="text" id="productName" placeholder="Food name" class="product-name-input" />
+
+  <textarea id="ingredients" rows="6" cols="50" placeholder="Paste all ingredients here..."></textarea>
+
+  <br><br>
+  <button id="check">Check Food</button>
+
+  <p id="result"></p>
+
+  <footer className="text-center py-8 px-6">
+    <p id="note" className="text-sm text-gray-600">
+      NOTE: This explanation is for general understanding only.<br />
+      It is not medical advice.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+
+</body>
+
+
+</html>

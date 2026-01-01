@@ -7,7 +7,6 @@ in simple, everyday English using AI.
 - Paste ingredients or food name
 - Get a clear, non-technical explanation
 - History sidebar to revisit past checks
-- Expandable ingredient details
 
 ## Tech Stack
 - Node.js
